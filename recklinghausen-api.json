@@ -1,0 +1,75 @@
+{
+  "name": "Freifunk Recklinghausen",
+  "url": "http://www.freifunk-recklinghausen.de",
+  "location": {
+    "city": "Recklinghausen",
+    "country": "DE",
+    "lat": 51.614445818337245,
+    "lon": 7.197697162628174
+  },
+  "contact": {
+    "email": "info@freifunk-recklinghausen.de",
+    "facebook": "https://www.facebook.com/freifunk.emscherland"
+  },
+  "metacommunity": "Freifunk Emscherland",
+  "nodeMaps": [
+    {
+      "url": "https://karte.freifunk-emscherland.de/map01/",
+      "interval": "1Minute",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    }
+  ],
+  "support": {
+    "club": {
+      "name": "c3RE",
+      "street": "Westcharweg 101",
+      "zip": "45659",
+      "city": "Recklinghausen",
+      "url": "http://www.c3re.de",
+      "email": "Chaostreff@c3RE.de"
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE08 4016 0050 0552 0646 00",
+        "BIC": "GENODEM1MSC",
+        "usage": "FFI - Freifunk RE"
+      }
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "url": "http://firmware.freifunk-emscherland.de/domaene01/"
+    },
+    "dns": [
+      {
+        "domainname": "ffel"
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2a03:2260:200d::/48"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.13.192.0/18"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": []
+  },
+  "state": {
+    "lastchange": "2016-09-13T12:20:57.954Z",
+    "focus": []
+  },
+  "api": "0.4.14"
+}
