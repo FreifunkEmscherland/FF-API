@@ -33,12 +33,13 @@
       "bankaccount": {
         "IBAN": "DE08 4016 0050 0552 0646 00",
         "BIC": "GENODEM1MSC",
-        "usage": "FFI - Freifunk RE"
+        "usage": "FFI - Freifunk RE/EL"
       }
     }
   },
   "techDetails": {
     "firmware": {
+      "name": "gluon",
       "url": "http://firmware.freifunk-emscherland.de/domaene01/"
     },
     "dns": [
