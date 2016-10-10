@@ -14,10 +14,9 @@
   "metacommunity": "Freifunk Emscherland",
   "nodeMaps": [
     {
-      "url": "https://karte.freifunk-emscherland.de/map01/",
+      "url": "https://karte.freifunk-emscherland.de/",
       "interval": "1Minute",
-      "technicalType": "ffmap",
-      "mapType": "geographical"
+      "technicalType": "ffmap"
     }
   ],
   "support": {
